@@ -22,7 +22,7 @@ In each folder, run the following command to train VMASK-based models.
 ```
 python main.py --save /path/to/your/model
 ```
-Fine-tune hyperparameters (e.g. learning rate, hidden states) on each dataset.
+Fine-tune hyperparameters (e.g. learning rate, the number of hidden units) on each dataset.
 
 ### Reference:
 If you find this repository helpful, please cite our paper
