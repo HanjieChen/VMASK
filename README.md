@@ -10,7 +10,7 @@ Code for the paper "Learning Variational Word Masks to Improve the Interpretabil
 ### Data:
 Download the preprocessing [data with splits](https://drive.google.com/file/d/1n9wVSsPBjIu9Ni0GodF21nikgrSSKfWR/view?usp=sharing).
 
-### Generate explanations:
+### Training:
 
 We provide the example code of HEDGE interpreting the LSTM, CNN and BERT model on the IMDB dataset. We adopt the BERT-base model built by huggingface: https://github.com/huggingface/transformers.
 
