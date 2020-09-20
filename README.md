@@ -12,17 +12,11 @@ Download the preprocessing [data with splits](https://drive.google.com/file/d/1n
 
 ### Train VMASK Model:
 
-We provide the example code of HEDGE interpreting the LSTM, CNN and BERT model on the IMDB dataset. We adopt the BERT-base model built by huggingface: https://github.com/huggingface/transformers.
+For BERT-VMASK, we adopt the BERT-base model built by huggingface: https://github.com/huggingface/transformers.
 
-In each folder, run the following command to generate explanations on the test data for a well-trained model.
+In each folder, run the following command to train VMASK-based models.
 ```
-python hedge_main_model_imdb.py --save /path/to/your/model
-```
-We save the start-end word indexes of text spans in a hierarchy into the "hedge_interpretation_index.txt" file.
-
-To visualize the hierarchical explanation of a sentence, run
-```
-python hedge_main_model_imdb.py --save /path/to/your/model --visualize 1(the index of the sentence)
+python main.py
 ```
 
 ### Reference:
