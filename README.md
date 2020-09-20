@@ -8,7 +8,7 @@ Code for the paper "Learning Variational Word Masks to Improve the Interpretabil
 - numpy == 1.16.4
 
 ### Data:
-[The preprocessing data with splits](https://drive.google.com/file/d/1n9wVSsPBjIu9Ni0GodF21nikgrSSKfWR/view?usp=sharing).
+Download the preprocessing [data with splits](https://drive.google.com/file/d/1n9wVSsPBjIu9Ni0GodF21nikgrSSKfWR/view?usp=sharing).
 
 ### Generate explanations:
 
