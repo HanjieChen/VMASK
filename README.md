@@ -9,7 +9,9 @@ Code for the paper "Learning Variational Word Masks to Improve the Interpretabil
 
 ### Data:
 Download the [data with splits](https://drive.google.com/file/d/1n9wVSsPBjIu9Ni0GodF21nikgrSSKfWR/view?usp=sharing) for CNN/LSTM-VMASK.
+
 Download the [data with splits](https://drive.google.com/file/d/1mpM8cazHjKZSR_mC7NIgoK0nFsiHjSP2/view?usp=sharing) for BERT-VMASK.
+
 Put the data under the same folder with the code.
 
 ### Train VMASK Models:
